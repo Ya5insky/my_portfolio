@@ -1,0 +1,42 @@
+
+@media only screen and (min-width: 600px){
+    .menu .menu__inner {
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   }
+}
+
+@media only screen and (min-width: 768px){
+      .menu .menu__inner {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: end;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .main .main__name {
+    text-align: center;
+    margin: 0 auto;
+}}
+
+
+@media only screen and (min-width: 768px){
+    .main .main__name {
+        text-align: start;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .main .main-name .caption {
+        margin: 2rem 0;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .main .main-name .caption {
+        margin: 5rem 0;
+    }
+}
